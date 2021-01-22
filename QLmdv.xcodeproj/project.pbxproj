@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CFE5B225B990ED000CC1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5B125B990ED000CC1C6 /* AppDelegate.swift */; };
+		34CFE5B425B990EF000CC1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CFE5B325B990EF000CC1C6 /* Assets.xcassets */; };
+		34CFE5E425B9915F000CC1C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5E325B9915F000CC1C6 /* main.swift */; };
+		34CFE5E825B992E4000CC1C6 /* RBNSToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5E625B992E4000CC1C6 /* RBNSToolbar.swift */; };
+		34CFE5E925B992E4000CC1C6 /* RBLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5E725B992E4000CC1C6 /* RBLog.swift */; };
+		34CFE5ED25B99321000CC1C6 /* RBOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5EB25B99321000CC1C6 /* RBOSView.swift */; };
+		34CFE5EE25B99321000CC1C6 /* RBNSTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5EC25B99321000CC1C6 /* RBNSTextLabel.swift */; };
+		34CFE5F125B9934F000CC1C6 /* RBPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5F025B9934F000CC1C6 /* RBPlatform.swift */; };
+		34CFE5F425B993A8000CC1C6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5F325B993A8000CC1C6 /* AppConfig.swift */; };
+		34CFE5F725B99474000CC1C6 /* RBUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5F625B99474000CC1C6 /* RBUtilities.swift */; };
+		34CFE5FA25B994C9000CC1C6 /* RB+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5F925B994C9000CC1C6 /* RB+String.swift */; };
+		34CFE5FD25B99509000CC1C6 /* RBGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5FC25B99509000CC1C6 /* RBGeometry.swift */; };
+		34CFE60C25B995F8000CC1C6 /* qlt-mdv.c in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE60725B995F8000CC1C6 /* qlt-mdv.c */; };
+		34CFE61225B99650000CC1C6 /* QltBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61125B99650000CC1C6 /* QltBridge.m */; };
+		34CFE61725B9A63D000CC1C6 /* RBTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */; };
+		34CFE61B25B9A7BD000CC1C6 /* AppFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */; };
+		34CFE61E25B9A7E6000CC1C6 /* AppMdvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */; };
+		34CFE62225B9AC1F000CC1C6 /* RBFileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE62125B9AC1F000CC1C6 /* RBFileUtility.swift */; };
+		34CFE65E25B9B50C000CC1C6 /* RBObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE65D25B9B50C000CC1C6 /* RBObserver.swift */; };
+		34ED18CD25B9F2240033AC26 /* AppEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18CC25B9F2240033AC26 /* AppEditorView.swift */; };
+		34ED18D125B9F32E0033AC26 /* RBToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18D025B9F32E0033AC26 /* RBToolbar.swift */; };
+		34ED18E925B9F3670033AC26 /* RBEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18D925B9F3670033AC26 /* RBEditorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34ED18EA25B9F3670033AC26 /* RBKeyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18DA25B9F3670033AC26 /* RBKeyTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34ED18EB25B9F3670033AC26 /* RBTextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18DC25B9F3670033AC26 /* RBTextProcessor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34ED18EC25B9F3670033AC26 /* RBCProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18DD25B9F3670033AC26 /* RBCProcessor.m */; };
+		34ED18ED25B9F3670033AC26 /* RBTextSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18DE25B9F3670033AC26 /* RBTextSettings.m */; };
+		34ED18EE25B9F3670033AC26 /* RBEditingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18E225B9F3670033AC26 /* RBEditingTextView.m */; };
+		34ED18EF25B9F3670033AC26 /* NSColor+RB.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18E325B9F3670033AC26 /* NSColor+RB.m */; };
+		34ED18F025B9F3670033AC26 /* RBAsmProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18E425B9F3670033AC26 /* RBAsmProcessor.m */; };
+		34ED18F125B9F3670033AC26 /* RBTextRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18E725B9F3670033AC26 /* RBTextRulerView.m */; };
+		34ED18F225B9F3670033AC26 /* RBBasicProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED18E825B9F3670033AC26 /* RBBasicProcessor.m */; };
+		34ED190325BA94300033AC26 /* qlt_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 34ED190225BA94300033AC26 /* qlt_util.c */; };
+		34ED190C25BAB6720033AC26 /* RBSuperBasicProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED190B25BAB6720033AC26 /* RBSuperBasicProcessor.m */; };
+		34ED191225BB1A4B0033AC26 /* RBDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED191125BB1A4B0033AC26 /* RBDefaultStorage.swift */; };
+		34ED191725BB28EB0033AC26 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34ED191625BB28EA0033AC26 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34CFE5AE25B990ED000CC1C6 /* QLmdv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLmdv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CFE5B125B990ED000CC1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34CFE5B325B990EF000CC1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CFE5B825B990EF000CC1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CFE5B925B990EF000CC1C6 /* QLmdv.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QLmdv.entitlements; sourceTree = "<group>"; };
+		34CFE5E325B9915F000CC1C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		34CFE5E625B992E4000CC1C6 /* RBNSToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNSToolbar.swift; sourceTree = "<group>"; };
+		34CFE5E725B992E4000CC1C6 /* RBLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBLog.swift; sourceTree = "<group>"; };
+		34CFE5EB25B99321000CC1C6 /* RBOSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBOSView.swift; sourceTree = "<group>"; };
+		34CFE5EC25B99321000CC1C6 /* RBNSTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNSTextLabel.swift; sourceTree = "<group>"; };
+		34CFE5F025B9934F000CC1C6 /* RBPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBPlatform.swift; sourceTree = "<group>"; };
+		34CFE5F325B993A8000CC1C6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		34CFE5F625B99474000CC1C6 /* RBUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBUtilities.swift; sourceTree = "<group>"; };
+		34CFE5F925B994C9000CC1C6 /* RB+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+String.swift"; sourceTree = "<group>"; };
+		34CFE5FC25B99509000CC1C6 /* RBGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGeometry.swift; sourceTree = "<group>"; };
+		34CFE60225B995F8000CC1C6 /* QLmdv-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLmdv-Bridging-Header.h"; sourceTree = "<group>"; };
+		34CFE60425B995F8000CC1C6 /* qlt-dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-dir.c"; path = "qlt/qlt-dir.c"; sourceTree = "<group>"; };
+		34CFE60525B995F8000CC1C6 /* qlt-qxl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-qxl.c"; path = "qlt/qlt-qxl.c"; sourceTree = "<group>"; };
+		34CFE60625B995F8000CC1C6 /* qlayt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qlayt.h; path = qlt/qlayt.h; sourceTree = "<group>"; };
+		34CFE60725B995F8000CC1C6 /* qlt-mdv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-mdv.c"; path = "qlt/qlt-mdv.c"; sourceTree = "<group>"; };
+		34CFE60825B995F8000CC1C6 /* qlt-flp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-flp.c"; path = "qlt/qlt-flp.c"; sourceTree = "<group>"; };
+		34CFE61025B99650000CC1C6 /* QltBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QltBridge.h; path = qlt/QltBridge.h; sourceTree = "<group>"; };
+		34CFE61125B99650000CC1C6 /* QltBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QltBridge.m; path = qlt/QltBridge.m; sourceTree = "<group>"; };
+		34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTreeView.swift; sourceTree = "<group>"; };
+		34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFileView.swift; sourceTree = "<group>"; };
+		34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMdvView.swift; sourceTree = "<group>"; };
+		34CFE62125B9AC1F000CC1C6 /* RBFileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBFileUtility.swift; sourceTree = "<group>"; };
+		34CFE65D25B9B50C000CC1C6 /* RBObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBObserver.swift; sourceTree = "<group>"; };
+		34ED18CC25B9F2240033AC26 /* AppEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEditorView.swift; sourceTree = "<group>"; };
+		34ED18D025B9F32E0033AC26 /* RBToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBToolbar.swift; sourceTree = "<group>"; };
+		34ED18D525B9F3670033AC26 /* RBCProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBCProcessor.h; path = editor/RBCProcessor.h; sourceTree = "<group>"; };
+		34ED18D625B9F3670033AC26 /* RBEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBEditorView.h; path = editor/RBEditorView.h; sourceTree = "<group>"; };
+		34ED18D725B9F3670033AC26 /* RBEditingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBEditingTextView.h; path = editor/RBEditingTextView.h; sourceTree = "<group>"; };
+		34ED18D825B9F3670033AC26 /* RBAsmProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBAsmProcessor.h; path = editor/RBAsmProcessor.h; sourceTree = "<group>"; };
+		34ED18D925B9F3670033AC26 /* RBEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBEditorView.m; path = editor/RBEditorView.m; sourceTree = "<group>"; };
+		34ED18DA25B9F3670033AC26 /* RBKeyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBKeyTextView.m; path = editor/RBKeyTextView.m; sourceTree = "<group>"; };
+		34ED18DB25B9F3670033AC26 /* RBBasicProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBBasicProcessor.h; path = editor/RBBasicProcessor.h; sourceTree = "<group>"; };
+		34ED18DC25B9F3670033AC26 /* RBTextProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBTextProcessor.m; path = editor/RBTextProcessor.m; sourceTree = "<group>"; };
+		34ED18DD25B9F3670033AC26 /* RBCProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBCProcessor.m; path = editor/RBCProcessor.m; sourceTree = "<group>"; };
+		34ED18DE25B9F3670033AC26 /* RBTextSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBTextSettings.m; path = editor/RBTextSettings.m; sourceTree = "<group>"; };
+		34ED18DF25B9F3670033AC26 /* RBKeyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBKeyTextView.h; path = editor/RBKeyTextView.h; sourceTree = "<group>"; };
+		34ED18E025B9F3670033AC26 /* RBTextRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBTextRulerView.h; path = editor/RBTextRulerView.h; sourceTree = "<group>"; };
+		34ED18E125B9F3670033AC26 /* NSColor+RB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+RB.h"; path = "editor/NSColor+RB.h"; sourceTree = "<group>"; };
+		34ED18E225B9F3670033AC26 /* RBEditingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBEditingTextView.m; path = editor/RBEditingTextView.m; sourceTree = "<group>"; };
+		34ED18E325B9F3670033AC26 /* NSColor+RB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+RB.m"; path = "editor/NSColor+RB.m"; sourceTree = "<group>"; };
+		34ED18E425B9F3670033AC26 /* RBAsmProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBAsmProcessor.m; path = editor/RBAsmProcessor.m; sourceTree = "<group>"; };
+		34ED18E525B9F3670033AC26 /* RBTextProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBTextProcessor.h; path = editor/RBTextProcessor.h; sourceTree = "<group>"; };
+		34ED18E625B9F3670033AC26 /* RBTextSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBTextSettings.h; path = editor/RBTextSettings.h; sourceTree = "<group>"; };
+		34ED18E725B9F3670033AC26 /* RBTextRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBTextRulerView.m; path = editor/RBTextRulerView.m; sourceTree = "<group>"; };
+		34ED18E825B9F3670033AC26 /* RBBasicProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBBasicProcessor.m; path = editor/RBBasicProcessor.m; sourceTree = "<group>"; };
+		34ED190225BA94300033AC26 /* qlt_util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = qlt_util.c; sourceTree = "<group>"; };
+		34ED190A25BAB6720033AC26 /* RBSuperBasicProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBSuperBasicProcessor.h; sourceTree = "<group>"; };
+		34ED190B25BAB6720033AC26 /* RBSuperBasicProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBSuperBasicProcessor.m; sourceTree = "<group>"; };
+		34ED191125BB1A4B0033AC26 /* RBDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBDefaultStorage.swift; sourceTree = "<group>"; };
+		34ED191625BB28EA0033AC26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CFE5AB25B990ED000CC1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CFE5A525B990ED000CC1C6 = {
+			isa = PBXGroup;
+			children = (
+				34ED191625BB28EA0033AC26 /* README.md */,
+				34CFE5B025B990ED000CC1C6 /* QLmdv */,
+				34CFE5AF25B990ED000CC1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CFE5AF25B990ED000CC1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CFE5AE25B990ED000CC1C6 /* QLmdv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CFE5B025B990ED000CC1C6 /* QLmdv */ = {
+			isa = PBXGroup;
+			children = (
+				34CFE5FF25B99570000CC1C6 /* assets */,
+				34CFE60125B995E5000CC1C6 /* qlt */,
+				34ED18D425B9F34B0033AC26 /* editor */,
+				34CFE60025B99583000CC1C6 /* base */,
+				34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */,
+				34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */,
+				34ED18CC25B9F2240033AC26 /* AppEditorView.swift */,
+				34CFE5F325B993A8000CC1C6 /* AppConfig.swift */,
+				34CFE5B125B990ED000CC1C6 /* AppDelegate.swift */,
+			);
+			path = QLmdv;
+			sourceTree = "<group>";
+		};
+		34CFE5FF25B99570000CC1C6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				34CFE5B325B990EF000CC1C6 /* Assets.xcassets */,
+				34CFE5B925B990EF000CC1C6 /* QLmdv.entitlements */,
+				34CFE5B825B990EF000CC1C6 /* Info.plist */,
+				34CFE60225B995F8000CC1C6 /* QLmdv-Bridging-Header.h */,
+				34CFE5E325B9915F000CC1C6 /* main.swift */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		34CFE60025B99583000CC1C6 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				34CFE5F925B994C9000CC1C6 /* RB+String.swift */,
+				34CFE62125B9AC1F000CC1C6 /* RBFileUtility.swift */,
+				34CFE5FC25B99509000CC1C6 /* RBGeometry.swift */,
+				34CFE5E725B992E4000CC1C6 /* RBLog.swift */,
+				34CFE5EC25B99321000CC1C6 /* RBNSTextLabel.swift */,
+				34CFE5E625B992E4000CC1C6 /* RBNSToolbar.swift */,
+				34CFE65D25B9B50C000CC1C6 /* RBObserver.swift */,
+				34CFE5EB25B99321000CC1C6 /* RBOSView.swift */,
+				34CFE5F025B9934F000CC1C6 /* RBPlatform.swift */,
+				34ED18D025B9F32E0033AC26 /* RBToolbar.swift */,
+				34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */,
+				34CFE5F625B99474000CC1C6 /* RBUtilities.swift */,
+				34ED191125BB1A4B0033AC26 /* RBDefaultStorage.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		34CFE60125B995E5000CC1C6 /* qlt */ = {
+			isa = PBXGroup;
+			children = (
+				34ED18FE25BA90F10033AC26 /* not used */,
+				34CFE60625B995F8000CC1C6 /* qlayt.h */,
+				34ED190225BA94300033AC26 /* qlt_util.c */,
+				34CFE60725B995F8000CC1C6 /* qlt-mdv.c */,
+				34CFE61125B99650000CC1C6 /* QltBridge.m */,
+				34CFE61025B99650000CC1C6 /* QltBridge.h */,
+			);
+			name = qlt;
+			sourceTree = "<group>";
+		};
+		34ED18D425B9F34B0033AC26 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				34ED18E125B9F3670033AC26 /* NSColor+RB.h */,
+				34ED18E325B9F3670033AC26 /* NSColor+RB.m */,
+				34ED18D825B9F3670033AC26 /* RBAsmProcessor.h */,
+				34ED18E425B9F3670033AC26 /* RBAsmProcessor.m */,
+				34ED18DB25B9F3670033AC26 /* RBBasicProcessor.h */,
+				34ED18E825B9F3670033AC26 /* RBBasicProcessor.m */,
+				34ED190A25BAB6720033AC26 /* RBSuperBasicProcessor.h */,
+				34ED190B25BAB6720033AC26 /* RBSuperBasicProcessor.m */,
+				34ED18D525B9F3670033AC26 /* RBCProcessor.h */,
+				34ED18DD25B9F3670033AC26 /* RBCProcessor.m */,
+				34ED18D725B9F3670033AC26 /* RBEditingTextView.h */,
+				34ED18E225B9F3670033AC26 /* RBEditingTextView.m */,
+				34ED18D625B9F3670033AC26 /* RBEditorView.h */,
+				34ED18D925B9F3670033AC26 /* RBEditorView.m */,
+				34ED18DF25B9F3670033AC26 /* RBKeyTextView.h */,
+				34ED18DA25B9F3670033AC26 /* RBKeyTextView.m */,
+				34ED18E525B9F3670033AC26 /* RBTextProcessor.h */,
+				34ED18DC25B9F3670033AC26 /* RBTextProcessor.m */,
+				34ED18E025B9F3670033AC26 /* RBTextRulerView.h */,
+				34ED18E725B9F3670033AC26 /* RBTextRulerView.m */,
+				34ED18E625B9F3670033AC26 /* RBTextSettings.h */,
+				34ED18DE25B9F3670033AC26 /* RBTextSettings.m */,
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		34ED18FE25BA90F10033AC26 /* not used */ = {
+			isa = PBXGroup;
+			children = (
+				34CFE60425B995F8000CC1C6 /* qlt-dir.c */,
+				34CFE60525B995F8000CC1C6 /* qlt-qxl.c */,
+				34CFE60825B995F8000CC1C6 /* qlt-flp.c */,
+			);
+			name = "not used";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CFE5AD25B990ED000CC1C6 /* QLmdv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CFE5D225B990EF000CC1C6 /* Build configuration list for PBXNativeTarget "QLmdv" */;
+			buildPhases = (
+				34CFE5AA25B990ED000CC1C6 /* Sources */,
+				34CFE5AB25B990ED000CC1C6 /* Frameworks */,
+				34CFE5AC25B990ED000CC1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLmdv;
+			productName = QLmdv;
+			productReference = 34CFE5AE25B990ED000CC1C6 /* QLmdv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CFE5A625B990ED000CC1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					34CFE5AD25B990ED000CC1C6 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 34CFE5A925B990ED000CC1C6 /* Build configuration list for PBXProject "QLmdv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CFE5A525B990ED000CC1C6;
+			productRefGroup = 34CFE5AF25B990ED000CC1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CFE5AD25B990ED000CC1C6 /* QLmdv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CFE5AC25B990ED000CC1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED191725BB28EB0033AC26 /* README.md in Resources */,
+				34CFE5B425B990EF000CC1C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CFE5AA25B990ED000CC1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED18F025B9F3670033AC26 /* RBAsmProcessor.m in Sources */,
+				34ED18F225B9F3670033AC26 /* RBBasicProcessor.m in Sources */,
+				34CFE60C25B995F8000CC1C6 /* qlt-mdv.c in Sources */,
+				34CFE5E925B992E4000CC1C6 /* RBLog.swift in Sources */,
+				34CFE61B25B9A7BD000CC1C6 /* AppFileView.swift in Sources */,
+				34ED18E925B9F3670033AC26 /* RBEditorView.m in Sources */,
+				34CFE5F425B993A8000CC1C6 /* AppConfig.swift in Sources */,
+				34CFE5F125B9934F000CC1C6 /* RBPlatform.swift in Sources */,
+				34ED190325BA94300033AC26 /* qlt_util.c in Sources */,
+				34ED18EF25B9F3670033AC26 /* NSColor+RB.m in Sources */,
+				34ED18EC25B9F3670033AC26 /* RBCProcessor.m in Sources */,
+				34CFE61225B99650000CC1C6 /* QltBridge.m in Sources */,
+				34CFE5E425B9915F000CC1C6 /* main.swift in Sources */,
+				34ED18D125B9F32E0033AC26 /* RBToolbar.swift in Sources */,
+				34CFE61725B9A63D000CC1C6 /* RBTreeView.swift in Sources */,
+				34ED18ED25B9F3670033AC26 /* RBTextSettings.m in Sources */,
+				34CFE5EE25B99321000CC1C6 /* RBNSTextLabel.swift in Sources */,
+				34ED18CD25B9F2240033AC26 /* AppEditorView.swift in Sources */,
+				34ED18F125B9F3670033AC26 /* RBTextRulerView.m in Sources */,
+				34CFE5F725B99474000CC1C6 /* RBUtilities.swift in Sources */,
+				34CFE5E825B992E4000CC1C6 /* RBNSToolbar.swift in Sources */,
+				34ED18EA25B9F3670033AC26 /* RBKeyTextView.m in Sources */,
+				34ED18EB25B9F3670033AC26 /* RBTextProcessor.m in Sources */,
+				34ED190C25BAB6720033AC26 /* RBSuperBasicProcessor.m in Sources */,
+				34ED18EE25B9F3670033AC26 /* RBEditingTextView.m in Sources */,
+				34CFE65E25B9B50C000CC1C6 /* RBObserver.swift in Sources */,
+				34ED191225BB1A4B0033AC26 /* RBDefaultStorage.swift in Sources */,
+				34CFE5ED25B99321000CC1C6 /* RBOSView.swift in Sources */,
+				34CFE5FA25B994C9000CC1C6 /* RB+String.swift in Sources */,
+				34CFE5B225B990ED000CC1C6 /* AppDelegate.swift in Sources */,
+				34CFE61E25B9A7E6000CC1C6 /* AppMdvView.swift in Sources */,
+				34CFE5FD25B99509000CC1C6 /* RBGeometry.swift in Sources */,
+				34CFE62225B9AC1F000CC1C6 /* RBFileUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34CFE5D025B990EF000CC1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34CFE5D125B990EF000CC1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		34CFE5D325B990EF000CC1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QLmdv/QLmdv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = F46T393V5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = QLmdv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.QLmdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QLmdv/QLmdv-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34CFE5D425B990EF000CC1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QLmdv/QLmdv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = F46T393V5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = QLmdv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.QLmdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QLmdv/QLmdv-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CFE5A925B990ED000CC1C6 /* Build configuration list for PBXProject "QLmdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CFE5D025B990EF000CC1C6 /* Debug */,
+				34CFE5D125B990EF000CC1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CFE5D225B990EF000CC1C6 /* Build configuration list for PBXNativeTarget "QLmdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CFE5D325B990EF000CC1C6 /* Debug */,
+				34CFE5D425B990EF000CC1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CFE5A625B990ED000CC1C6 /* Project object */;
+}
