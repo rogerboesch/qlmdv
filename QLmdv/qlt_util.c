@@ -14,13 +14,22 @@ int  dbg;
 int  randmdv;
 FILE *qxldf;
 char lstfname[256] = "";
-char addfname[256] = "";
 char outfname[256] = "qlay.mdv";
 char dirfname[256] = "qlay.dir";
 char temppath[256] = "/";
 
 // Callbacks
 void usage(void) {}
+
+void resetglobals(void) {
+    // Reset globals (Remove after too)
+    randmdv = -1;
+    ifname[LINESIZE-1] = '\0';
+    lstline[LINESIZE-1] = '\0';
+    lstline2[LINESIZE-1] = '\0';
+    qdosname[QDOSSIZE-1] = '\0';
+    dosname[DOSSIZE-1] = '\0';
+}
 
 // Helper functions
 void putlong(U8 *p, U32 v) {
@@ -53,7 +62,7 @@ int getxtcc(FILE *f, U32 *d) {
         *d=getlong(&tmp[4]);
     }
     else {
-        fprintf(stderr,"Error: could not find XTcc datasize\n");
+        printf("Error: could not find XTcc datasize\n");
         return -1;
     }
 

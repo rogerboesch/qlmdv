@@ -6,19 +6,8 @@ static NSMutableArray* s_listOfFiles = NULL;
 
 @implementation QltBridge
 
-+ (void)resetGlobals {
-    // Reset globals (Remove after with global vars)
-    dbg = 0;
-    randmdv = -1;
-    ifname[LINESIZE-1] = '\0';
-    lstline[LINESIZE-1] = '\0';
-    lstline2[LINESIZE-1] = '\0';
-    qdosname[QDOSSIZE-1] = '\0';
-    dosname[DOSSIZE-1] = '\0';
-}
-
 + (int)listMdv:(NSString *)mdvFilename {
-    [self resetGlobals];
+    resetglobals();
     
     int result = mdv2fil((char *)[mdvFilename UTF8String], 0);
     
@@ -38,12 +27,12 @@ static NSMutableArray* s_listOfFiles = NULL;
 }
 
 + (int)fileToMdv:(NSString *)mdvFilename listFilename:(NSString *)listFilename {
-    [self resetGlobals];
+    resetglobals();
     return fil2mdv((char *)[listFilename UTF8String], (char *)[mdvFilename UTF8String]);
 }
 
 + (int)mdvToFile:(NSString *)mdvFilename {
-    [self resetGlobals];
+    resetglobals();
     return mdv2fil((char *)[mdvFilename UTF8String], 1);
 }
 

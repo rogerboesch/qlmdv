@@ -61,11 +61,8 @@
 		34CFE5F925B994C9000CC1C6 /* RB+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+String.swift"; sourceTree = "<group>"; };
 		34CFE5FC25B99509000CC1C6 /* RBGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGeometry.swift; sourceTree = "<group>"; };
 		34CFE60225B995F8000CC1C6 /* QLmdv-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLmdv-Bridging-Header.h"; sourceTree = "<group>"; };
-		34CFE60425B995F8000CC1C6 /* qlt-dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-dir.c"; path = "qlt/qlt-dir.c"; sourceTree = "<group>"; };
-		34CFE60525B995F8000CC1C6 /* qlt-qxl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-qxl.c"; path = "qlt/qlt-qxl.c"; sourceTree = "<group>"; };
 		34CFE60625B995F8000CC1C6 /* qlayt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qlayt.h; path = qlt/qlayt.h; sourceTree = "<group>"; };
 		34CFE60725B995F8000CC1C6 /* qlt-mdv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-mdv.c"; path = "qlt/qlt-mdv.c"; sourceTree = "<group>"; };
-		34CFE60825B995F8000CC1C6 /* qlt-flp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-flp.c"; path = "qlt/qlt-flp.c"; sourceTree = "<group>"; };
 		34CFE61025B99650000CC1C6 /* QltBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QltBridge.h; path = qlt/QltBridge.h; sourceTree = "<group>"; };
 		34CFE61125B99650000CC1C6 /* QltBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QltBridge.m; path = qlt/QltBridge.m; sourceTree = "<group>"; };
 		34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTreeView.swift; sourceTree = "<group>"; };
@@ -181,7 +178,6 @@
 		34CFE60125B995E5000CC1C6 /* qlt */ = {
 			isa = PBXGroup;
 			children = (
-				34ED18FE25BA90F10033AC26 /* not used */,
 				34CFE60625B995F8000CC1C6 /* qlayt.h */,
 				34ED190225BA94300033AC26 /* qlt_util.c */,
 				34CFE60725B995F8000CC1C6 /* qlt-mdv.c */,
@@ -218,16 +214,6 @@
 				34ED18DE25B9F3670033AC26 /* RBTextSettings.m */,
 			);
 			name = editor;
-			sourceTree = "<group>";
-		};
-		34ED18FE25BA90F10033AC26 /* not used */ = {
-			isa = PBXGroup;
-			children = (
-				34CFE60425B995F8000CC1C6 /* qlt-dir.c */,
-				34CFE60525B995F8000CC1C6 /* qlt-qxl.c */,
-				34CFE60825B995F8000CC1C6 /* qlt-flp.c */,
-			);
-			name = "not used";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
