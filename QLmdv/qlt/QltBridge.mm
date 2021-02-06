@@ -1,6 +1,10 @@
 
 #import "QltBridge.h"
-#import "qlayt.h"
+#import "RBDirectory.hpp"
+
+extern "C" {
+    #import "qlayt.h"
+}
 
 static NSMutableArray* s_listOfFiles = NULL;
 

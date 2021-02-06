@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B4543025BC8CAD00FA1CE8 /* RBDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34B4542E25BC8CAD00FA1CE8 /* RBDirectory.cpp */; };
 		34CFE5B225B990ED000CC1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5B125B990ED000CC1C6 /* AppDelegate.swift */; };
 		34CFE5B425B990EF000CC1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CFE5B325B990EF000CC1C6 /* Assets.xcassets */; };
 		34CFE5E425B9915F000CC1C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5E325B9915F000CC1C6 /* main.swift */; };
@@ -20,7 +21,7 @@
 		34CFE5FA25B994C9000CC1C6 /* RB+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5F925B994C9000CC1C6 /* RB+String.swift */; };
 		34CFE5FD25B99509000CC1C6 /* RBGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE5FC25B99509000CC1C6 /* RBGeometry.swift */; };
 		34CFE60C25B995F8000CC1C6 /* qlt-mdv.c in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE60725B995F8000CC1C6 /* qlt-mdv.c */; };
-		34CFE61225B99650000CC1C6 /* QltBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61125B99650000CC1C6 /* QltBridge.m */; };
+		34CFE61225B99650000CC1C6 /* QltBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61125B99650000CC1C6 /* QltBridge.mm */; };
 		34CFE61725B9A63D000CC1C6 /* RBTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */; };
 		34CFE61B25B9A7BD000CC1C6 /* AppFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */; };
 		34CFE61E25B9A7E6000CC1C6 /* AppMdvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */; };
@@ -45,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34B4542E25BC8CAD00FA1CE8 /* RBDirectory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RBDirectory.cpp; sourceTree = "<group>"; };
+		34B4542F25BC8CAD00FA1CE8 /* RBDirectory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RBDirectory.hpp; sourceTree = "<group>"; };
 		34CFE5AE25B990ED000CC1C6 /* QLmdv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLmdv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CFE5B125B990ED000CC1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34CFE5B325B990EF000CC1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +67,7 @@
 		34CFE60625B995F8000CC1C6 /* qlayt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qlayt.h; path = qlt/qlayt.h; sourceTree = "<group>"; };
 		34CFE60725B995F8000CC1C6 /* qlt-mdv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "qlt-mdv.c"; path = "qlt/qlt-mdv.c"; sourceTree = "<group>"; };
 		34CFE61025B99650000CC1C6 /* QltBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QltBridge.h; path = qlt/QltBridge.h; sourceTree = "<group>"; };
-		34CFE61125B99650000CC1C6 /* QltBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QltBridge.m; path = qlt/QltBridge.m; sourceTree = "<group>"; };
+		34CFE61125B99650000CC1C6 /* QltBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = QltBridge.mm; path = qlt/QltBridge.mm; sourceTree = "<group>"; };
 		34CFE61625B9A63D000CC1C6 /* RBTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTreeView.swift; sourceTree = "<group>"; };
 		34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFileView.swift; sourceTree = "<group>"; };
 		34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMdvView.swift; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				34ED18D425B9F34B0033AC26 /* editor */,
 				34CFE60025B99583000CC1C6 /* base */,
 				34CFE61A25B9A7BD000CC1C6 /* AppFileView.swift */,
+				34B4542E25BC8CAD00FA1CE8 /* RBDirectory.cpp */,
+				34B4542F25BC8CAD00FA1CE8 /* RBDirectory.hpp */,
 				34CFE61D25B9A7E6000CC1C6 /* AppMdvView.swift */,
 				34ED18CC25B9F2240033AC26 /* AppEditorView.swift */,
 				34CFE5F325B993A8000CC1C6 /* AppConfig.swift */,
@@ -181,7 +186,7 @@
 				34CFE60625B995F8000CC1C6 /* qlayt.h */,
 				34ED190225BA94300033AC26 /* qlt_util.c */,
 				34CFE60725B995F8000CC1C6 /* qlt-mdv.c */,
-				34CFE61125B99650000CC1C6 /* QltBridge.m */,
+				34CFE61125B99650000CC1C6 /* QltBridge.mm */,
 				34CFE61025B99650000CC1C6 /* QltBridge.h */,
 			);
 			name = qlt;
@@ -297,8 +302,9 @@
 				34ED190325BA94300033AC26 /* qlt_util.c in Sources */,
 				34ED18EF25B9F3670033AC26 /* NSColor+RB.m in Sources */,
 				34ED18EC25B9F3670033AC26 /* RBCProcessor.m in Sources */,
-				34CFE61225B99650000CC1C6 /* QltBridge.m in Sources */,
+				34CFE61225B99650000CC1C6 /* QltBridge.mm in Sources */,
 				34CFE5E425B9915F000CC1C6 /* main.swift in Sources */,
+				34B4543025BC8CAD00FA1CE8 /* RBDirectory.cpp in Sources */,
 				34ED18D125B9F32E0033AC26 /* RBToolbar.swift in Sources */,
 				34CFE61725B9A63D000CC1C6 /* RBTreeView.swift in Sources */,
 				34ED18ED25B9F3670033AC26 /* RBTextSettings.m in Sources */,
@@ -331,7 +337,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -392,7 +398,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
